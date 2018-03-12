@@ -1,0 +1,20 @@
+[caps]
+automationName = "XCUITest"
+deviceName = "iPhone 6"
+platformName = "iOS"
+platformVersion = "11.2"
+app = "./app/ios/SimpleCalculator.app"
+appPackage = "com.example.leonardomenezes.simplecalculatorandroid"
+autoAcceptAlerts = true
+bundleId = "br.com.package"
+xcodeOrgId = "xcode Org ID"
+xcodeSigningId = "xcode Signing Id"
+clearSystemFiles = true
+wdaStartupRetryInterval = 1000
+useNewWDA = true
+waitForQuiescence = false
+shouldUseSingletonTestManager = false
+
+[appium_lib]
+wait = 20
+debug = false

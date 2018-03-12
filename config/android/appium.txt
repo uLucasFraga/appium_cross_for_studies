@@ -1,0 +1,12 @@
+[caps]
+app = "./app/android/app-android-calculator.apk"
+udid = "192.168.56.101:5555"
+deviceName = "Google_Nexus_9"
+appPackage = "com.example.leonardomenezes.simplecalculatorandroid"
+platformName = "Android"
+newCommandTimeout = 3600
+autoGrantPermissions = true
+
+[appium_lib]
+wait = 20
+debug = false
